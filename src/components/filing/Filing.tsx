@@ -60,12 +60,12 @@ export default component$(() => {
           Data Science and Big Data
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:4.2s] ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.5s] ${gradientText}`}
         >
           Pixel Artist
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:7.6s]  ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:8s]  ${gradientText}`}
         >
           Cibersecurity
         </span>

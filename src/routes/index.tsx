@@ -5,7 +5,7 @@ import Filing from "~/components/filing/Filing.tsx";
 export default component$(() => {
   return (
     <>
-        <Filing />
+      <Filing />
     </>
   );
 });

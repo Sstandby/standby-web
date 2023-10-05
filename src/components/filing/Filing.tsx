@@ -47,7 +47,7 @@ export default component$(() => {
 
   return (
     <div
-      class={`flex flex-col space-y-14 items-center justify-center h-screen  ${gradientText}`}
+      class={`flex flex-col space-y-28 items-center justify-center h-screen  ${gradientText}`}
     >
       <span class="text-6xl text-zinc-500">
         {outputText.value}
@@ -55,17 +55,17 @@ export default component$(() => {
       </span>
       <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-4xl">
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none  [animation-delay:5.30s] ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none  ${gradientText}`}
         >
           Data Science and Big Data
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.40s] ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:4.2s] ${gradientText}`}
         >
           Pixel Artist
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:7.40s]  ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:7.6s]  ${gradientText}`}
         >
           Cibersecurity
         </span>

@@ -55,17 +55,17 @@ export default component$(() => {
       </span>
       <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-4xl">
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none  ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none ${gradientText}`}
         >
           Data Science and Big Data
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.5s] ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.7s] ${gradientText}`}
         >
           Pixel Artist
         </span>
         <span
-          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:8s]  ${gradientText}`}
+          class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:8.4s]  ${gradientText}`}
         >
           Cibersecurity
         </span>

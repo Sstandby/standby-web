@@ -28,7 +28,7 @@ export default component$(() => {
     },
   ];
   return (
-    <header class="mx-auto flex items-center p-6  lg:px-8 justify-between">
+    <header class="fixed z-20 flex w-[100vw] items-center p-6  lg:px-8 justify-between">
       <div class="w-14 h-14  p-1  rounded-full bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400">
         <Image class="rounded-full" />
       </div>

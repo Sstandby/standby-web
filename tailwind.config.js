@@ -6,8 +6,14 @@ module.exports = {
       animation: {
         ["infinite-slider"]: "infiniteSlider 20s linear infinite",
         slide: "slide 5s ease-in-out infinite",
+        "text-gradient": "text-gradient 1.5s linear infinite",
       },
       keyframes: {
+        "text-gradient": {
+          to: {
+            backgroundPosition: "200% center",
+          },
+        },
         infiniteSlider: {
           "0%": { transform: "translateX(0)" },
           "100%": {

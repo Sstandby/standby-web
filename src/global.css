@@ -39,3 +39,7 @@ body {
   padding: 0;
   line-height: inherit;
 }
+
+.custom-text-shadow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

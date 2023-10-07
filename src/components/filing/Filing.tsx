@@ -47,9 +47,12 @@ export default component$(() => {
 
   return (
     <div
-      class={`flex flex-col space-y-28 items-center justify-center h-screen  ${gradientText}`}
+      class={`flex flex-col space-y-28 items-center justify-center h-screen ${gradientText}`}
     >
-      <span class="text-6xl text-zinc-500">
+      <span
+        class="text-6xl text-white"
+        style="text-shadow: 0 0 20px rgba(255, 255, 255, 0.40);"
+      >
         {outputText.value}
         {remainder}
       </span>

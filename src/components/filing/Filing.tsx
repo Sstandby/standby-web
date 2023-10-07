@@ -50,13 +50,13 @@ export default component$(() => {
       class={`flex flex-col space-y-28 items-center justify-center h-screen ${gradientText}`}
     >
       <span
-        class="text-6xl text-white"
+        class="text-7xl text-white"
         style="text-shadow: 0 0 20px rgba(255, 255, 255, 0.40);"
       >
         {outputText.value}
         {remainder}
       </span>
-      <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-4xl">
+      <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-5xl">
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none ${gradientText}`}
         >

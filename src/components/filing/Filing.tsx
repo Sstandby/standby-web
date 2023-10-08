@@ -60,7 +60,7 @@ export default component$(() => {
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none ${gradientText}`}
         >
-          Data Science and Big Data
+          Student in Data Science 
         </span>
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.7s] ${gradientText}`}
@@ -70,7 +70,7 @@ export default component$(() => {
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:8.4s]  ${gradientText}`}
         >
-          Cibersecurity
+          Pentester - Dev Web
         </span>
       </span>
       <p class="text-zinc-500 text-xl w-80 text-center">

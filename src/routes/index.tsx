@@ -6,6 +6,7 @@ import TextGradient from "~/components/textGradient/TextGradient.tsx";
 import BorderCard from "~/components/borderCard/BorderCard.tsx";
 import TagShine from "~/components/tagShine/TagShine.tsx";
 import ButtonShine from "~/components/buttons/ButtonShine.tsx";
+import BorderPulse from "~/components/borders/BorderPulse.tsx";
 import Pxl from "~/assets/img/standbyPXL1.png?jsx";
 import Pxl2 from "~/assets/img/standbyPXL2.png?jsx";
 import Pxl3 from "~/assets/img/standbyPXL3.png?jsx";
@@ -15,7 +16,10 @@ export default component$(() => {
   return (
     <>
       <Filing />
-      <TextGradient text="Places where I exist" />
+      <div class="mb-20 space-y-5">
+        <TextGradient text="Places where I exist" />
+        <BorderPulse />
+      </div>
       <SliderIcons />
       <div class="mx-auto flex justify-between w-[1024px] mt-20 mb-20">
         <div class="flex flex-col space-y-6">

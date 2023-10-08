@@ -8,8 +8,19 @@ module.exports = {
         slide: "slide 5s ease-in-out infinite",
         "text-gradient": "text-gradient 1.5s linear infinite",
         "background-shine": "background-shine 2s linear infinite",
+        "border-width": "border-width 3s infinite alternate",
       },
       keyframes: {
+        "border-width": {
+          from: {
+            width: "100px",
+            opacity: "0",
+          },
+          to: {
+            width: "500px",
+            opacity: "1",
+          },
+        },
         "background-shine": {
           from: {
             backgroundPosition: "0 0",

@@ -60,7 +60,7 @@ export default component$(() => {
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none ${gradientText}`}
         >
-          Student in Data Science 
+          Student in Data Science
         </span>
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.7s] ${gradientText}`}

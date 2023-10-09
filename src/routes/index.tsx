@@ -10,18 +10,18 @@ import BorderPulse from "~/components/borders/BorderPulse.tsx";
 import Pxl from "~/assets/img/standbyPXL1.png?jsx";
 import Pxl2 from "~/assets/img/standbyPXL2.png?jsx";
 import Pxl3 from "~/assets/img/standbyPXL3.png?jsx";
-import { BsInstagram, BsBatteryCharging, BsAt } from "@qwikest/icons/bootstrap";
+import { BsCircleFill, BsAsterisk } from "@qwikest/icons/bootstrap";
 
 export default component$(() => {
   return (
     <>
       <Filing />
-      <div class="mb-20 space-y-5">
+      <div class="mb-24 space-y-5">
         <TextGradient text="Places where I exist" />
         <BorderPulse />
       </div>
       <SliderIcons />
-      <div class="mx-auto flex justify-between w-[1024px] mt-20 mb-20">
+      <div class="mx-auto flex justify-between w-[1024px] mt-24 mb-24">
         <div class="flex flex-col space-y-6">
           <div class="flex gap-4">
             <TagShine text="Pixel Art" />
@@ -37,36 +37,47 @@ export default component$(() => {
       </div>
       <div class="flex relative justify-center items-center gap-8">
         <BorderCard>
-          <div class="flex flex-col space-y-7">
-            <Pxl class="h-48 w-full w-full" />
-            <div class="flex gap-4 justify-between text-4xl">
-              <BsBatteryCharging />
-              <BsInstagram />
-              <BsAt />
+          <div class="flex flex-col space-y-2">
+            <div class="flex justify-between text-sm">
+              <div class="flex gap-2">
+                <BsCircleFill class="text-red-400" />
+                <BsCircleFill class="text-yellow-200" />
+                <BsCircleFill class="text-green-300" />
+              </div>
+              <BsAsterisk class="text-purple-400" />
             </div>
+            <Pxl class="rounded-lg h-52 w-full w-full" />
+          </div>
+        </BorderCard>
+
+        <BorderCard>
+          <div class="flex flex-col space-y-2">
+            <div class="flex justify-between text-sm">
+              <div class="flex gap-2">
+                <BsCircleFill class="text-red-400" />
+                <BsCircleFill class="text-yellow-200" />
+                <BsCircleFill class="text-green-300" />
+              </div>
+              <BsAsterisk class="text-purple-400" />
+            </div>
+            <Pxl2 class="rounded-lg h-52 w-full w-full" />
           </div>
         </BorderCard>
         <BorderCard>
-          <div class="flex flex-col space-y-7">
-            <Pxl2 class="h-48 w-full w-full" />
-            <div class="flex gap-4 justify-between text-4xl">
-              <BsBatteryCharging />
-              <BsInstagram />
-              <BsAt />
+          <div class="flex flex-col space-y-2">
+            <div class="flex justify-between text-sm">
+              <div class="flex gap-2">
+                <BsCircleFill class="text-red-400" />
+                <BsCircleFill class="text-yellow-200" />
+                <BsCircleFill class="text-green-300" />
+              </div>
+              <BsAsterisk class="text-purple-400" />
             </div>
-          </div>
-        </BorderCard>
-        <BorderCard>
-          <div class="flex flex-col space-y-7">
-            <Pxl3 class="h-48 w-full w-full" />
-            <div class="flex gap-4 justify-between text-4xl">
-              <BsBatteryCharging />
-              <BsInstagram />
-              <BsAt />
-            </div>
+            <Pxl3 class="rounded-lg h-52 w-full w-full" />
           </div>
         </BorderCard>
       </div>
+
     </>
   );
 });

@@ -10,7 +10,7 @@ import BorderPulse from "~/components/borders/BorderPulse.tsx";
 import Pxl from "~/assets/img/standbyPXL1.png?jsx";
 import Pxl2 from "~/assets/img/standbyPXL2.png?jsx";
 import Pxl3 from "~/assets/img/standbyPXL3.png?jsx";
-import { BsCircleFill, BsAsterisk } from "@qwikest/icons/bootstrap";
+import { BsStars, BsCircleFill, BsAsterisk } from "@qwikest/icons/bootstrap";
 
 export default component$(() => {
   return (
@@ -77,7 +77,23 @@ export default component$(() => {
           </div>
         </BorderCard>
       </div>
-
+      <div class="flex mt-80 w-[1024px] items-center justify-center">
+        <div class="space-y-10">
+          <div class="flex gap-4">
+            <TagShine text="Design" />
+            <TagShine text="Data Science" />
+            <TagShine text="Cibersecurity" />
+          </div>
+          <p class="font-bold text-7xl w-[44rem] custom-text-shadow">
+            Personal space where I design, explore and transform.
+          </p>
+          <p class="text-xl w-[34rem]">
+            Projects that I have been doing and have been public. Keep an eye on
+            this section.
+          </p>
+        </div>
+      </div>
+      <p class="flex justify-center mt-80 mb-14">© 2023 Standby. All Rights Reserved.</p>
     </>
   );
 });

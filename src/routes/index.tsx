@@ -46,21 +46,7 @@ export default component$(() => {
               </div>
               <BsAsterisk class="text-purple-400" />
             </div>
-            <Pxl class="rounded-lg h-52 w-full w-full" />
-          </div>
-        </BorderCard>
-
-        <BorderCard>
-          <div class="flex flex-col space-y-2">
-            <div class="flex justify-between text-sm">
-              <div class="flex gap-2">
-                <BsCircleFill class="text-red-400" />
-                <BsCircleFill class="text-yellow-200" />
-                <BsCircleFill class="text-green-300" />
-              </div>
-              <BsAsterisk class="text-purple-400" />
-            </div>
-            <Pxl2 class="rounded-lg h-52 w-full w-full" />
+            <Pxl class="rounded-lg h-52 w-full" />
           </div>
         </BorderCard>
         <BorderCard>
@@ -73,11 +59,24 @@ export default component$(() => {
               </div>
               <BsAsterisk class="text-purple-400" />
             </div>
-            <Pxl3 class="rounded-lg h-52 w-full w-full" />
+            <Pxl2 class="rounded-lg h-52"/>
+          </div>
+        </BorderCard>
+        <BorderCard>
+          <div class="flex flex-col space-y-2">
+            <div class="flex justify-between text-sm">
+              <div class="flex gap-2">
+                <BsCircleFill class="text-red-400" />
+                <BsCircleFill class="text-yellow-200" />
+                <BsCircleFill class="text-green-300" />
+              </div>
+              <BsAsterisk class="text-purple-400" />
+            </div>
+            <Pxl3 class="rounded-lg h-52 w-full" />
           </div>
         </BorderCard>
       </div>
-      <div class="flex mt-80 w-[1024px] items-center justify-center">
+      <div class="flex mt-80 mb-80 w-[1024px] items-center justify-center">
         <div class="space-y-10">
           <div class="flex gap-4">
             <TagShine text="Design" />
@@ -93,7 +92,6 @@ export default component$(() => {
           </p>
         </div>
       </div>
-      <p class="flex justify-center mt-80 mb-14">© 2023 Standby. All Rights Reserved.</p>
     </>
   );
 });

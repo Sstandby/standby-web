@@ -6,7 +6,7 @@ export default component$(() => {
   const gradientText =
     "bg-gradient-to-r from-pink-300 via-pink-400 to-purple-400 bg-clip-text text-transparent";
 
-  const text = "Standby";
+  const text = "Designing and transforming more than just webs";
   const interval = 50;
 
   const outputText = useSignal("");
@@ -50,17 +50,17 @@ export default component$(() => {
       class={`flex flex-col space-y-28 items-center justify-center h-screen ${gradientText}`}
     >
       <span
-        class="text-7xl text-white"
+        class="text-8xl text-white w-[67rem] text-center"
         style="text-shadow: 0 0 20px rgba(255, 255, 255, 0.40);"
       >
         {outputText.value}
         {remainder}
       </span>
-      <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-5xl">
+      <span class="relative h-[1em] w-[34rem] ml-3 overflow-hidden text-7xl">
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none ${gradientText}`}
         >
-          Student in Data Science
+          Data Science
         </span>
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:6.7s] ${gradientText}`}
@@ -70,10 +70,10 @@ export default component$(() => {
         <span
           class={`text-center absolute h-full w-full -translate-y-full animate-slide leading-none [animation-delay:8.4s]  ${gradientText}`}
         >
-          Pentester - Dev Web
+          Pentester - Web Dev
         </span>
       </span>
-      <p class="text-zinc-500 text-xl w-80 text-center">
+      <p class="text-zinc-500 text-4xl w-80 text-center">
         Somewhere, something incredible is waiting to be discovered
       </p>
     </div>

@@ -43,6 +43,7 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
+    "@fontsource/oswald": "^5.0.15",
     "@qwikest/icons": "^0.0.10"
   }
 }

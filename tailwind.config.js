@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      fontFamily: {
+        oswald: ["Oswald", "sans-serif"],
+      },
       animation: {
         ["infinite-slider"]: "infiniteSlider 20s linear infinite",
         slide: "slide 5s ease-in-out infinite",

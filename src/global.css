@@ -2,6 +2,13 @@
  * Tailwind CSS imports
  * View the full documentation at https://tailwindcss.com
  */
+@import "@fontsource/oswald/200.css";
+@import "@fontsource/oswald/300.css";
+@import "@fontsource/oswald/400.css";
+@import "@fontsource/oswald/500.css";
+@import "@fontsource/oswald/600.css";
+@import "@fontsource/oswald/700.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

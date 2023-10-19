@@ -3,6 +3,9 @@ import Avatar from "~/assets/img/avatar.png?jsx";
 import { BsCupHotFill } from "@qwikest/icons/bootstrap";
 
 export default component$(() => {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <div class="flex justify-center items-center h-screen">
       <div class="w-96">
@@ -27,17 +30,10 @@ export default component$(() => {
         </div>
         <div class="text-lg space-y-4 text-slate-400">
           <p>
-            This website has undergone several renovations since I was 13 years
-            old, up to the present day when I am 19, and my goal will always be
-            to share, in my spare time, any idea, creation, transformation, or
-            design that I may be capable of with equally curious readers who
-            also uphold this concept.
+              This website has undergone several renovations since I was 13 years old. I am {year-2004} now and my goal will always be to share equally curious readers, any idea, creation, transformation or design within my capabilities.
           </p>
           <p>
-            Most likely, you will come across a wide range of content here,
-            including CTFs I undertake, programming guides, data science, chess,
-            or simply how to create designs with Blender or Aseprite for pixel
-            art.
+              You will most likely come across a wide range of content here, including CTFs, programming guides, data science, chess or how to create designs with Blender or Aseprite for pixel art.
           </p>
           <p class="mt-5 bg-gradient-to-r from-pink-500 via-pink-400 to-purple-400 inline-block text-transparent bg-clip-text">
             Contact: hello@sstandby.com

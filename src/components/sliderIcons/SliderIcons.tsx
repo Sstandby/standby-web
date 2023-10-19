@@ -1,7 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import {
-  SiTryHackMe,
-  SiHackTheBox,
   SiCodewars,
   SiDiscord,
   SiLichess,

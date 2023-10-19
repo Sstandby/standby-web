@@ -14,7 +14,7 @@ export default component$(() => {
 
   useVisibleTask$(() => {
     isMounted.value = !isMounted.value;
-  }, []);
+  });
 
   useVisibleTask$(() => {
     let timer: NodeJS.Timeout;
@@ -30,7 +30,7 @@ export default component$(() => {
     }
 
     return () => clearInterval(timer);
-  }, [text, interval, outputText]);
+  });
 
   const remainder =
     outputText.value.length < text.length

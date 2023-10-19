@@ -2,15 +2,9 @@ import { $, component$, useSignal, QwikMouseEvent } from "@builder.io/qwik";
 
 export interface ButtonProps {
   text: string;
-  items: ListMenu[];
 }
 
-export interface ListMenu {
-  text: string;
-  url: string;
-}
-
-export default component$(({ text }: prop) => {
+export default component$(({ text }: ButtonProps) => {
   const stateMenu = useSignal(false);
   const eventMenu = $((event: QwikMouseEvent<HTMLDivElement>) => {
     const id = (event.target as HTMLDivElement).id;

@@ -1,12 +1,12 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Filing from "~/components/filing/Filing.tsx";
-import SliderIcons from "~/components/sliderIcons/SliderIcons.tsx";
-import TextGradient from "~/components/textGradient/TextGradient.tsx";
-import BorderCard from "~/components/borderCard/BorderCard.tsx";
-import TagShine from "~/components/tagShine/TagShine.tsx";
-import ButtonShine from "~/components/buttons/ButtonShine.tsx";
-import BorderPulse from "~/components/borders/BorderPulse.tsx";
+import Filing from "~/components/filing/Filing";
+import SliderIcons from "~/components/sliderIcons/SliderIcons";
+import TextGradient from "~/components/textGradient/TextGradient";
+import BorderCard from "~/components/borderCard/BorderCard";
+import TagShine from "~/components/tagShine/TagShine";
+import ButtonShine from "~/components/buttons/ButtonShine";
+import BorderPulse from "~/components/borders/BorderPulse";
 import Pxl from "~/assets/img/standbyPXL1.png?jsx";
 import Pxl2 from "~/assets/img/standbyPXL2.png?jsx";
 import Pxl3 from "~/assets/img/standbyPXL3.png?jsx";
@@ -59,7 +59,7 @@ export default component$(() => {
               </div>
               <BsAsterisk class="text-purple-400" />
             </div>
-            <Pxl2 class="rounded-lg h-52"/>
+            <Pxl2 class="rounded-lg h-52" />
           </div>
         </BorderCard>
         <BorderCard>

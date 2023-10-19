@@ -9,7 +9,7 @@ export default component$(() => {
   const text = "Designing and transforming more than just webs";
   const interval = 50;
 
-  const outputText = useSignal("");
+  const outputText = useSignal('');
   const isMounted = useSignal(false);
 
   useVisibleTask$(() => {
@@ -19,7 +19,7 @@ export default component$(() => {
   useVisibleTask$(() => {
     let timer: NodeJS.Timeout;
 
-    if (outputText !== text) {
+    if (outputText.value !== text) {
       timer = setInterval(() => {
         if (outputText.value.length < text.length) {
           outputText.value += text[outputText.value.length];

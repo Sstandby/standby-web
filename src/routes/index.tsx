@@ -1,4 +1,4 @@
-import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Filing from "~/components/filing/Filing";
 import SliderIcons from "~/components/sliderIcons/SliderIcons";
@@ -10,7 +10,7 @@ import BorderPulse from "~/components/borders/BorderPulse";
 import Pxl from "~/assets/img/standbyPXL1.png?jsx";
 import Pxl2 from "~/assets/img/standbyPXL2.png?jsx";
 import Pxl3 from "~/assets/img/standbyPXL3.png?jsx";
-import { BsStars, BsCircleFill, BsAsterisk } from "@qwikest/icons/bootstrap";
+import { BsCircleFill, BsAsterisk } from "@qwikest/icons/bootstrap";
 
 export default component$(() => {
   return (

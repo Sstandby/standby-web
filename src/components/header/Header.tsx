@@ -3,7 +3,6 @@ import {
   BsHouseHeartFill,
   BsIncognito,
   BsStars,
-  BsSendPlus,
   BsGithub,
 } from "@qwikest/icons/bootstrap";
 import Image from "~/assets/img/cathacker.png?jsx";

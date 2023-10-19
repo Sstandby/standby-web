@@ -1,11 +1,4 @@
-import {
-  component$,
-  useStore,
-  useSignal,
-  $,
-  QwikMouseEvent,
-  Slot,
-} from "@builder.io/qwik";
+import { component$, useStore, useSignal, $, Slot } from "@builder.io/qwik";
 
 export interface BorderCardsProps {
   hsize?: string;

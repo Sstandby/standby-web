@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import Avatar from "~/assets/img/avatar.png?jsx";
-import Firma from "~/assets/img/firma.png?jsx";
 import { BsCupHotFill } from "@qwikest/icons/bootstrap";
 
 export default component$(() => {

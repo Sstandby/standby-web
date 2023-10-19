@@ -9,7 +9,7 @@ export default component$(() => {
   const text = "Designing and transforming more than just webs";
   const interval = 50;
 
-  const outputText = useSignal('');
+  const outputText = useSignal("");
   const isMounted = useSignal(false);
 
   useVisibleTask$(() => {

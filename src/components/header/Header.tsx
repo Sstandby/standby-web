@@ -57,7 +57,7 @@ export default component$(() => {
           </Link>
         ))}
       </nav>
-      <div/>
+      <div />
     </header>
   );
 });

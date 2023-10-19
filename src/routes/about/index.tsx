@@ -30,10 +30,15 @@ export default component$(() => {
         </div>
         <div class="text-lg space-y-4 text-slate-400">
           <p>
-              This website has undergone several renovations since I was 13 years old. I am {year-2004} now and my goal will always be to share equally curious readers, any idea, creation, transformation or design within my capabilities.
+            This website has undergone several renovations since I was 13 years
+            old. I am {year - 2004} now and my goal will always be to share
+            equally curious readers, any idea, creation, transformation or
+            design within my capabilities.
           </p>
           <p>
-              You will most likely come across a wide range of content here, including CTFs, programming guides, data science, chess or how to create designs with Blender or Aseprite for pixel art.
+            You will most likely come across a wide range of content here,
+            including CTFs, programming guides, data science, chess or how to
+            create designs with Blender or Aseprite for pixel art.
           </p>
           <p class="mt-5 bg-gradient-to-r from-pink-500 via-pink-400 to-purple-400 inline-block text-transparent bg-clip-text">
             Contact: hello@sstandby.com

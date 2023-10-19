@@ -38,7 +38,7 @@ export default component$(() => {
       <div class="w-20 h-20  p-1  rounded-full bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400">
         <Image class="rounded-full" />
       </div>
-      <nav class="flex p-4 px-20  rounded-full border  border-zinc-400 text-zinc-300 gap-4 ">
+      <nav class="flex p-4 px-20 bg-neutral-950 rounded-full border  border-zinc-400 text-zinc-300 gap-4 ">
         {icons.map(({ icon, link, name }, index) => (
           <Link key={index} href={link}>
             <button
@@ -57,9 +57,7 @@ export default component$(() => {
           </Link>
         ))}
       </nav>
-      <div class="text-zinc-500 shadow-md shadow-zinc-400 rounded-full outline-none text-center text-6xl">
-        <BsGithub />
-      </div>
+      <div/>
     </header>
   );
 });

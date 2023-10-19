@@ -35,7 +35,7 @@ export default component$(() => {
       */
   ];
   return (
-    <header class="fixed z-20 flex w-[100vw] items-center p-8 lg:px-20 justify-between">
+    <header class="fixed z-20 flex w-[100vw] items-center pt-5 px-20 justify-between">
       <div class="w-20 h-20  p-1  rounded-full bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400">
         <Image class="rounded-full" />
       </div>

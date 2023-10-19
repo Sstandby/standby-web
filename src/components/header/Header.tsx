@@ -3,7 +3,6 @@ import {
   BsHouseHeartFill,
   BsIncognito,
   BsStars,
-  BsGithub,
 } from "@qwikest/icons/bootstrap";
 import Image from "~/assets/img/cathacker.png?jsx";
 import { Link } from "@builder.io/qwik-city";
